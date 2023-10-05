@@ -12,7 +12,7 @@
 - [Arboresence](#Arboresence)
 - [Utilisation](#utilisation)
 - [Portail Open Data](#portail-open-data)
-- [Screenshot de l'app](#screenshort-app)
+- [Screenshot de l'app](#Screenshort-de-l'app)
 - [Contributions](#contributions)
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
