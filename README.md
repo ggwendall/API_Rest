@@ -1,3 +1,7 @@
+![Capture d'écran 2023-07-29 184759](https://github.com/ggwendall/Techaide/assets/48108275/31960d7d-28cf-439b-9dc8-5b77a90b9ee3)
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
+
 # Projet Open Data Environnement - README
 
 ## Table des matières
@@ -10,7 +14,7 @@
 - [Portail Open Data](#portail-open-data)
 - [Contributions](#contributions)
 
----
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Introduction
 
@@ -18,7 +22,7 @@ Bienvenue dans le projet Open Data Environnement ! Ce projet a été initié par
 
 Ce document vise à vous guider à travers le développement et le déploiement d'une API REST basée sur un jeu de données initial, ainsi qu'à explorer une ébauche de portail opendata. Cette phase initiale nous aidera à déterminer si cette approche est viable avant d'investir davantage dans le recrutement de développeurs et l'infrastructure.
 
----
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Objectif
 
@@ -32,7 +36,7 @@ L'objectif principal de ce projet est de développer et de tester une API REST q
 
 4. **Évaluer la viabilité** : À l'issue de cette phase initiale, évaluer si cette solution répond à nos objectifs avant de prendre des décisions concernant le recrutement de développeurs supplémentaires et l'expansion de l'infrastructure.
 
----
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Prérequis
 
@@ -46,7 +50,7 @@ Avant de commencer à travailler sur ce projet, assurez-vous d'avoir les éléme
 
 - **Accès aux données** : Les jeux de données open data sur l'environnement que vous souhaitez rendre accessibles. Ces données devraient être stockées dans la base de données.
 
----
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Arboresence
 
@@ -81,6 +85,7 @@ api-REST_Mongodb-CRUD
 ├─── docker-compose.yml
 └─── readme.md
 ```
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Utilisation
 
@@ -90,7 +95,7 @@ Une fois le projet configuré et le serveur en cours d'exécution, vous pouvez c
    streamlit run client/client.py
    ```
 
----
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Portail Open Data
 
@@ -98,6 +103,7 @@ CO2 Emitted by countries into environment (Year wise from 1750 to 2022)
 ```bash
 https://www.kaggle.com/datasets/moazzimalibhatti/co2-emission-by-countries-year-wise-17502022
 ```
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Deployment:
 * Navigate to the directory where you want to download the repo then run the following commands:
@@ -110,6 +116,9 @@ cd api-REST_Mongodb-CRUD
 ```bash
 docker compose up -d
 ```
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
+
 ## Client
 You can use the streamlit client to test the API
 * In /api-REST_Mongodb-CRUD
@@ -119,10 +128,17 @@ pip install -r client/requirements_client.txt
 ```bash
 streamlit run client/client.py
 ```   
----
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Contributions
 
 Merci au contributeurs de ce projet ! 
 
----
+<div align=center>
+
+<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
+
+![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
+
+![Bottom](https://github.com/ggwendall/ggwendall/assets/48108275/1f58de6a-f411-45fd-86a6-e9aa673332e6)
