@@ -1,4 +1,4 @@
-![banner2](https://github.com/ggwendall/API_Rest/assets/48108275/e7db8110-4756-4353-bdd8-6098f013e0eb)
+![banner2](https://github.com/ggwendall/API_Rest/assets/48108275/e47da436-fd32-4b0a-8721-5b7b73e67afe)
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
@@ -139,11 +139,13 @@ streamlit run client/client.py
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Screenshot
-<img width="1246" alt="Capture d'écran 2023-10-05 102736" src="https://github.com/ggwendall/API_Rest/assets/48108275/cd096ccc-b845-424b-85ed-3bfd8cc7a7d5">
 
-<img width="1249" alt="Capture d'écran 2023-10-05 102753" src="https://github.com/ggwendall/API_Rest/assets/48108275/2eb84fef-a593-4434-b434-26f5ac62b998">
+<img width="1247" alt="Capture d'écran 2023-10-05 102806" src="https://github.com/ggwendall/API_Rest/assets/48108275/97ca30ec-69d2-45f5-a52c-9e3800ee8587">
 
-<img width="1247" alt="Capture d'écran 2023-10-05 102806" src="https://github.com/ggwendall/API_Rest/assets/48108275/e777d3c6-5382-4e72-9291-c0f15bf29ead">
+<img width="1249" alt="Capture d'écran 2023-10-05 102753" src="https://github.com/ggwendall/API_Rest/assets/48108275/619a91f6-b6f5-4a38-af4b-6fe1d92448cb">
+
+<img width="1246" alt="Capture d'écran 2023-10-05 102736" src="https://github.com/ggwendall/API_Rest/assets/48108275/b07d9529-eb2f-4ed7-9b7d-974b40264458">
+
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
