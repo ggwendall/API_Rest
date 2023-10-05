@@ -99,7 +99,7 @@ CO2 Emitted by countries into environment (Year wise from 1750 to 2022)
 https://www.kaggle.com/datasets/moazzimalibhatti/co2-emission-by-countries-year-wise-17502022
 ```
 
-## 🛠️ Deployment:
+## Deployment:
 * Navigate to the directory where you want to download the repo then run the following commands:
 ```bash
 git clone https://github.com/Hatchi-Kin/api-REST_Mongodb-CRUD.git
@@ -110,7 +110,15 @@ cd api-REST_Mongodb-CRUD
 ```bash
 docker compose up -d
 ```
-
+## Client
+You can use the streamlit client to test the API
+* In /api-REST_Mongodb-CRUD
+```bash
+pip install -r client/requirements_client.txt
+```
+```bash
+streamlit run client/client.py
+```   
 ---
 
 ## Contributions
