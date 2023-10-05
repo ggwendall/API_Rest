@@ -1,0 +1,53 @@
+version: '3'
+services:
+
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile-serveur
+    container_name: fastapi
+    ports: 
+      - 8000:8000
+    networks:
+      - host
+    command: uvicorn my_api:app --host 0.0.0.0 --port 8000
+    environment: 
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=example
+      - FASTAPI_ENV=development
+    volumes:
+      - ./server:/server
+
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - 27017:27017
+    networks:
+      - host
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=pass12345
+      - MONGO_INITDB_DATABASE=environment
+
+
+  mongo-seed:
+        env_file:
+            - .env
+        build:
+            context: ./mongo
+            dockerfile: Dockerfile
+            args:
+                - DATABASE_URI=$DATABASE_URI
+                - USERNAME=$MONGO_INITDB_ROOT_USERNAME
+                - PASSWORD=$MONGO_INITDB_ROOT_PASSWORD
+        container_name: mongo-seed
+        depends_on:
+            - mongo
+        networks:
+            - host
+    
+
+networks:
+    host:

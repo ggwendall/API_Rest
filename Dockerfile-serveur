@@ -1,0 +1,14 @@
+FROM python:3.8-slim-buster
+
+ENV MONGO_DB_USERNAME=root\
+    MONGO_DB__PWD=pass12345
+
+WORKDIR /server
+
+COPY server/requirements_api.txt /server/
+
+RUN pip install --no-cache-dir -r requirements_api.txt
+
+EXPOSE 8000
+
+CMD ["uvicorn", "my_api:app", "--host", "0.0.0.0", "--port", "8000"]
