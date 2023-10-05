@@ -100,14 +100,14 @@ Une fois le projet configuré et le serveur en cours d'exécution, vous pouvez c
 
 ## Portail Open Data
 
-CO2 Emitted by countries into environment (Year wise from 1750 to 2022)
+CO2 émis par les pays dans l'environnement (par année, de 1750 à 2022)
 ```bash
 https://www.kaggle.com/datasets/moazzimalibhatti/co2-emission-by-countries-year-wise-17502022
 ```
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Deployment:
-* Navigate to the directory where you want to download the repo then run the following commands:
+* Naviguez jusqu'au répertoire où vous souhaitez télécharger le repo et exécutez les commandes suivantes :
 ```bash
 git clone https://github.com/Hatchi-Kin/api-REST_Mongodb-CRUD.git
 ```
@@ -117,11 +117,17 @@ cd api-REST_Mongodb-CRUD
 ```bash
 docker compose up -d
 ```
+# Acceder a la documentation 
+
+une fois que le projet projet est déployer vous pouvez acceder a la documentaion :
+```bash
+localhost:8000/docs
+```
 
 ![image](https://github.com/ggwendall/ggwendall/assets/48108275/edb15cbf-f45a-472c-b934-44762886a231)
 
 ## Client
-You can use the streamlit client to test the API
+Vous pouvez utiliser le client streamlit pour tester l'API
 * In /api-REST_Mongodb-CRUD
 ```bash
 pip install -r client/requirements_client.txt
